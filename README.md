@@ -25,7 +25,7 @@
 - Predictive analysis with classification models
 
 ## Data Collection - SpaceX-API
-#### [Github link](https://github.com/advaitvd/spacex_dashapp)
+#### [Github link](https://github.com/advaitvd/spacex_dashapp/blob/develop/jupyter-labs-spacex-data-collection-api.ipynb)
 - The following url is used as a source of the spacex launch data.
 ```url = "https://api.spacexdata.com/v4/launches/past"```
 - ```requests``` library is used to get the http response from the above url and the corresponding json is then converted to a pandas dataframe using  ```data = pd.json_normalize(response.json())``` 
