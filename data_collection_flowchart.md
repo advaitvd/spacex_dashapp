@@ -11,12 +11,8 @@ graph TD;
 ```
 ```mermaid
 graph TD;
-  Program-->getBoosterData;
-  Program-->getLaunchSite;
-  Program-->getPayloadData;
-  Program-->getCoreData;
-  getBoosterData-->SpaceX_API-->BoosterData-->getBoosterData-->Program;
-  getLaunchSite-->SpaceX_API-->LaunchSite-->getLaunchSite-->Program;
-  getPayloadData-->SpaceX_API-->PayloadData-->getPayloadData-->Program;
-  getCoreData-->SpaceX_API-->CoreData-->getCoreData-->Program
+  getBoosterData-->SpaceX_API-->BoosterData-->getBoosterData;
+  getLaunchSite-->SpaceX_API-->LaunchSite-->getLaunchSite;
+  getPayloadData-->SpaceX_API-->PayloadData-->getPayloadData;
+  getCoreData-->SpaceX_API-->CoreData-->getCoreData;
 ```
