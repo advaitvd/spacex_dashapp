@@ -7,7 +7,7 @@
 graph TD;
   Program-->SpaceX_API;
   SpaceX_API-->launch_data;
-  launch_data-->Our_Program;
+  launch_data-->Program;
 ```
 ```mermaid
 graph TD;
